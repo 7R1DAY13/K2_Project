@@ -1,0 +1,229 @@
+.search_div{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 30px;
+    width: 350px;
+    height: 100vh;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.glass{
+    background-color: var(--text-color);
+    padding: 5px 10px;
+    color: black;
+    border-radius: 5px 0 0 5px;
+}
+
+.search input{
+    background-color: var(--text-color);
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 76%;
+}
+
+.search span{
+    background-color: var(--text-color);
+    padding: 5px 10px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+}
+
+.text_flex{
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.text{
+    color: var(--text-color);
+}
+
+.filter_text{
+    color: #999fc0
+}
+
+.search_div hr{
+    width: 97%;
+    margin-top: 10px;
+}
+
+.tick{
+    display: flex;
+    color: var(--search-color);
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.checkbox_one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* margin-left: 47px; */
+}
+
+.box_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.checkone{
+    border: 2px solid white;
+    position: relative;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    /* Custom styling */
+    width: 30px; /* Adjust for larger size */
+    height: 30px;
+    
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s  ease-in-out;
+}
+
+.checkone:checked{
+    background-color: blue;
+    border: 2px solid white;
+}
+
+.checkone:checked::before{
+    content: "✔"; 
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: white;
+    font-size: 16px;
+}
+
+.box_text{
+    width: 80px;
+    font-size: 12px;
+    color: white;
+    border: 2px solid orangered;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.box_text2{
+    width: 80px;
+    font-size: 12px;
+    color: white;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.box_text3{
+    width: 80px;
+    font-size: 12px;
+    color: white;
+    border: 2px solid skyblue;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.box_text4{
+    width: 80px;
+    font-size: 12px;
+    color: white;
+    border: 2px solid gainsboro;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.search_bar_right{
+    width: 82%;
+}
+
+.input_dropdown_container {
+    position: relative;
+    width: 300px;
+}
+
+.input_dropdown {
+    margin-top: 20px;
+    width: 245px;
+    padding: 8px 30px 8px 8px; /* Right padding for icon space */
+    font-size: 14px;
+    background-color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.arrow_icon {
+    position: absolute;
+    right: 60px;
+    top: 70%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevents clicking on the icon */
+    font-size: 16px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.dropdown_content {
+    
+    /* display: none; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 245px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.dropdown_content div{
+    color: black;
+    font-size: 13px;
+    height: 30px;
+}
+
+.dropdown_content.active {
+    display: block;
+}
+
+.dropdown_content div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown_content div:hover {
+    background-color: #f0f0f0;
+}
+
+.search_bar3{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.search_bar3 input{
+    width: 113px;
+    background-color: var(--text-color);
+    border: none;
+    color: #999fc0;
+    padding: 7px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
