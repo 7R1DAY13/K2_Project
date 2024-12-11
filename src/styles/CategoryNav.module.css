@@ -1,0 +1,46 @@
+.Filter_mobile{
+    opacity: 0;
+  }
+
+  .Nav_buttons{
+    padding: 10px 0px  0px 80px;
+    background-color: #2b2b41;
+  }  
+
+  .Nav_buttons button{
+    font-size: 14px;
+    width: 180px;
+    padding: 5px 5px;
+  }
+
+  .Nav_buttons svg{
+    font-size: 19px;
+    margin: 5px 10px 0px 0px
+  }
+
+  .Nav_buttons span{
+    width: 100%;
+  }
+
+  .NavBtn_Fst{
+    background-color: #999fc0;
+    border: 0;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 5px;
+  }
+
+  .NavBtn_Fst svg{
+    padding: 0px 3px;  
+  }
+
+  .NavBtn_2nd{
+    background-color: #353a4f;
+    border-radius: 5px 5px 0px 0px;
+    border: 0;
+    color: #555b76;
+  }
+
+  .NavBtn_2nd svg{
+    color: #555b76;
+    padding: 0px 3px;
+  }
