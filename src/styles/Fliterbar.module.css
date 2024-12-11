@@ -14,7 +14,7 @@
 .glass{
     background-color: var(--text-color);
     padding: 5px 10px;
-    color: black;
+    color: #7a8196;
     border-radius: 5px 0 0 5px;
 }
 
@@ -29,14 +29,14 @@
 .search span{
     background-color: var(--text-color);
     padding: 5px 10px;
-    color: black;
+    color: #7a8196;
     border-radius: 0 5px 5px 0;
 }
 
 .text_flex{
     display: flex;
     gap: 20px;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 10px;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .checkone:checked{
-    background-color: blue;
+    background-color: #007aff;
     border: 2px solid white;
 }
 

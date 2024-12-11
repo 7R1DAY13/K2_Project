@@ -12,6 +12,7 @@
 
 .list li{
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .project{
