@@ -4,7 +4,8 @@
     background-color: var(--background-color);
     color: var(--text-color);
     text-align: center;
-    padding: 10px;
+    text-wrap: nowrap;
+    padding: 12px
 }
 
 .list{
@@ -14,6 +15,11 @@
 .list li{
     margin-bottom: 50px;
     cursor: pointer;
+}
+
+.list h5{
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .project{

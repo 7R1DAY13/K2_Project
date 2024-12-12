@@ -7,7 +7,14 @@ import styles from '../styles/Home.module.css'
 const Home = () => {
   return (  
     <>
-      
+      <div class = {styles.container}>
+          <Navbar/>
+          <div class = {styles.main_div}>
+            <SideBar/>
+            <Listtable/>
+            <FilterBar/>
+          </div>
+    </div>
     </>
   );
 }
