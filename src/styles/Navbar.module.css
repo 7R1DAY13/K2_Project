@@ -44,3 +44,23 @@
     font-size: 20px;
     white-space: nowrap;
   }
+
+  @media (max-width: 980px){
+
+    .Logo{
+      display: none;
+    }
+
+    .page_name{
+      font-size: 4.6728971963vw;
+    }
+
+    .Head_Access_Button svg{
+      font-size: 6.0747663551vw;
+    }
+
+    .image{
+      width:6.0747663551vw ;
+      height: 6.0747663551vw;
+    }
+  }

@@ -5,16 +5,23 @@
   .Nav_buttons{
     padding: 10px 0px  0px 30px;
     background-color: #2b2b41;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
   }  
+
+  .Nav_buttons_Pages{
+    margin-top: 15px;
+  }
 
   .Nav_buttons button{
     font-size: 14px;
-    width: 180px;
     padding: 5px 5px;
   }
 
   .Nav_buttons svg{
-    font-size: 19px;
     margin: 5px 10px 0px 0px
   }
 
@@ -27,6 +34,7 @@
     border: 0;
     border-radius: 5px 5px 0px 0px;
     margin-right: 5px;
+    width: 180px;
   }
 
   .NavBtn_Fst svg{
@@ -38,6 +46,7 @@
     border-radius: 5px 5px 0px 0px;
     border: 0;
     color: #555b76;
+    width: 180px;
   }
 
   .NavBtn_2nd a {
@@ -47,4 +56,55 @@
   .NavBtn_2nd svg{
     color: #555b76;
     padding: 0px 3px;
+  }
+
+  @media (max-width: 930px){
+
+    .Nav_buttons_Pages{
+      align-items: center;
+      height: auto;
+    }
+
+    .Nav_buttons_Pages button{
+      font-size: 2.3364485981vw;
+    }
+
+    .Nav_buttons_Pages button span{
+        display: block;
+    }
+
+    .NavBtn_Fst{
+      width: 20.3364485981vw;
+    }
+
+    .NavBtn_2nd{
+      width: 20.3364485981vw;
+    }
+
+  .Filter_mobile{
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    width: 20.2336448598vw;
+    height: 8.3364485981vw;
+    justify-content: center;
+    border: 1px solid #999fc0;
+    border-radius: 5.8411214953vw;
+    background-color: transparent;
+    color: var(--text-color);
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 15px;
+    text-wrap: nowrap;
+  }
+
+  .Filter_mobile svg{
+    font-size: 3.3364485981vw;
+    margin: 0px;
+  }
+
+  .Filter_mobile span{
+    font-size: 2.3364485981vw;
+  }
+
   }
