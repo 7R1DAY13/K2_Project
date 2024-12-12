@@ -1,8 +1,8 @@
 .Item_List{
     background-color: #353a4f;
-    width: 100%;
+    width: 95%;
     overflow-y: auto;
-    height: 100vh;
+    /* height: 100%; */
 }
 
 .list_table{

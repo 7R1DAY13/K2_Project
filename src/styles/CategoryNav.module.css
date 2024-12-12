@@ -3,7 +3,7 @@
   }
 
   .Nav_buttons{
-    padding: 10px 0px  0px 80px;
+    padding: 10px 0px  0px 30px;
     background-color: #2b2b41;
   }  
 
@@ -37,6 +37,10 @@
     background-color: #353a4f;
     border-radius: 5px 5px 0px 0px;
     border: 0;
+    color: #555b76;
+  }
+
+  .NavBtn_2nd a {
     color: #555b76;
   }
 

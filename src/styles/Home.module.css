@@ -166,3 +166,11 @@ a.secondary {
     filter: invert();
   }
 }
+.container{
+  height: 100vh;
+}
+
+.main_div{
+  display: flex;
+  height: 91.9vh;
+}
