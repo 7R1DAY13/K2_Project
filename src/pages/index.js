@@ -14,7 +14,7 @@ const Home = () => {
             <Listtable/>
             <FilterBar/>
           </div>
-    </div>
+      </div>
     </>
   );
 }

@@ -1,0 +1,107 @@
+.container{
+    background-color: var(--background-color);
+    padding: 30px;
+    margin: 80px auto;
+    color: var(--text-color);
+    width: 1200px;
+    height: 650px;
+}
+
+.message_info{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    grid-gap: 70px;
+}
+
+
+.user_info div{
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.user_info svg{
+    margin: auto;
+}
+
+.btn{
+    margin-top: 250px;
+}
+
+.btn button{
+    color: white;
+    background-color: #007aff;
+    border: none;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.message_head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.message_container{
+    background-color: var(--secondary-color);
+    height: 90%;
+    width: 95%;
+    border-top: 2px solid white;
+    margin-top: 15px;
+}
+
+.message_add{
+   display: flex;
+   gap: 10px;
+   margin-top: 480px;
+   margin-right: 20px;
+   justify-content: flex-end;
+   align-items: center;
+   color: white;
+}
+
+.message_add button{
+    background-color: var(--button-color);
+    border:none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.main_container{
+    display: grid;
+    grid-template-columns: 4fr 0.5fr;
+}
+
+.menu_grid div{
+    border: 1px solid #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu_grid div:first-child{
+    background-color: var(--text-color);
+    color: black;
+    border: none;
+}
+
+.menu_grid p{
+    font-size: 10px;
+}
+
+.message_box{
+    margin-left: 20px;
+}
+
+.menu_grid{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+}
