@@ -227,3 +227,11 @@
     padding-left: 10px;
     border-radius: 4px;
 }
+
+@media (max-width: 1150px){
+
+.search_div{
+    display: none;
+}
+
+}

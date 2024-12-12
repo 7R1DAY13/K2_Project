@@ -25,3 +25,26 @@
 .project{
     color: var(--hover-color);
 }
+
+@media (max-width: 980px){
+
+.sidebar{
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 60px;
+    font-size: 2rem;
+    padding-top: 0px;
+}
+
+.list svg{
+    font-size: 4.6728971963vw;
+}
+
+}
