@@ -1,8 +1,25 @@
+import React,{useState,useEffect} from 'react';
 import list_table from '../../styles/Listtable.module.css'
+import ModalBox from './modalbox.jsx';
 const Item_List = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    // Function to open the modal
+    const openModal = () => {
+        setIsModalOpen(true);
+        console.log("Phin kyee dl")
+    };
+
+    // Function to close the modal
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
+
     return (
         <>
-            <div className={list_table.list_table}>
+            <div className={list_table.list_table} onClick={openModal}>
                 <div>
                     <ul className={list_table.list_table_ul}>
                         <li className={list_table.item_1}><p className={list_table.fst_row_list}>佐藤スプリング</p></li>
@@ -12,9 +29,11 @@ const Item_List = () => {
                     </ul>
                 </div>
                 <div className={list_table.list_status}>
-                    <li ><span >施工中</span><div className={list_table.back_arrow_li}></div></li>
+                    <li ><span >施工中</span><div className={list_table.backarrow_li}></div></li>
                 </div>
             </div>
+            
+            {  isModalOpen && <ModalBox closeModal={closeModal} />}
         </>
       );
 }
