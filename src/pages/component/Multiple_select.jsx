@@ -19,7 +19,7 @@ const Multiple = () => {
           type="text"
           id="input-box"
           className={styles.input_dropdown}
-          placeholder="- - multiple selections possible - -"
+          placeholder="- - --複数選択可能-- - -"
           value={inputValue}
           onFocus={() => setIsDropdownActive(true)} // Show dropdown on focus
           onBlur={() => setTimeout(() => setIsDropdownActive(false), 200)} // Delay hiding to allow clicks
