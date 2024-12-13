@@ -1,7 +1,10 @@
 import styles from '../../styles/modal.module.css'
-const Modal = () => {
+const Modal = ({closeModal}) => {
+
     return ( 
-        <div class = {styles.container}>
+        <div className={styles.page_container} >
+            <h2 onClick={closeModal}>X</h2>
+            <div class = {styles.container}>
             <div class = {styles.main_container}>
                 <div class = {styles.message_info}> 
                     <div class = {styles.user_info}>
@@ -105,6 +108,7 @@ const Modal = () => {
 
                 </div>
             </div>    
+        </div>
         </div>
      );
 }
