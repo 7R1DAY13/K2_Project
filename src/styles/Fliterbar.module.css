@@ -4,6 +4,7 @@
     padding: 30px;
     width: 370px;
     height: 100%;
+    z-index: 1;
 }
 
 .search{

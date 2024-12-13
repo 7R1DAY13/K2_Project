@@ -5,7 +5,7 @@
     color: var(--text-color);
     text-align: center;
     text-wrap: nowrap;
-    padding: 12px
+    padding: 12px;
 }
 
 .list{
@@ -45,6 +45,14 @@
 
 .list svg{
     font-size: 4.6728971963vw;
+}
+
+}
+
+@media (max-width: 480px){
+
+.sidebar{
+    padding: 5px;
 }
 
 }

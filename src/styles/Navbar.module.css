@@ -24,6 +24,17 @@
     margin-top: 22px;
   }
 
+  .noticebar{
+    position: fixed;
+    padding: 2px;
+    left: 50%;
+    font-size: 8px;
+    background-color: rgba(255, 255, 0, 0.63);
+    border-radius: 0px 0px 5px 5px;
+    color: #000;
+    transform: translateX(-50%);
+  }
+
   .Head_Access_Button{
     width: 100%;
     display: flex;
@@ -64,3 +75,4 @@
       height: 6.0747663551vw;
     }
   }
+
