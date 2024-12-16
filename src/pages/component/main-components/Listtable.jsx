@@ -1,4 +1,4 @@
-import list_table from '../../styles/Listtable.module.css'
+import list_table from '../../../styles/main-component-styles/Listtable.module.css'
 import Category_Nav from '../side-components/Category_Nav';
 import Item_List from '../side-components/Item_List';
 

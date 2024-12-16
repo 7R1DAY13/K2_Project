@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import use_profile from '../../../public/icons/userlogo.png'
-import nav_style from '../../styles/Navbar.module.css';
-import page_logo from '../../../public/icons/案件一覧 - Google Chrome 11_21_2024 8_51_27 AM.png'
+import use_profile from '../../../../public/icons/userlogo.png'
+import nav_style from '../../../styles/main-component-styles/Navbar.module.css';
+import page_logo from '../../../../public/icons/案件一覧 - Google Chrome 11_21_2024 8_51_27 AM.png'
 const Navbar = () => {
     return ( 
         <>

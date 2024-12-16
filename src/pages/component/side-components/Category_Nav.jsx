@@ -1,4 +1,4 @@
-import CategoryNav from '../../styles/CategoryNav.module.css'
+import CategoryNav from '../../../styles/side-component-styles/CategoryNav.module.css'
 
 const Category_Nav = () => {
     return ( 

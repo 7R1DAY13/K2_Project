@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import list_table from '../../styles/Listtable.module.css'
+import list_table from '../../../styles/main-component-styles/Listtable.module.css'
 import ModalBox from '../modal-boxes/modalbox.jsx';
 const Item_List = () => {
 

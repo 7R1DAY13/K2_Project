@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../../styles/Fliterbar.module.css';
+import styles from '../../../styles/main-component-styles/Fliterbar.module.css';
 
 const Multiple = () => {
   const [inputValue, setInputValue] = useState(''); // State for the input value

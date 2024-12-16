@@ -1,4 +1,4 @@
-import styles from '../../styles/modal.module.css'
+import styles from '../../../styles/modal-boxes-styles/modal.module.css'
 const Modal = ({closeModal}) => {
 
     return ( 
