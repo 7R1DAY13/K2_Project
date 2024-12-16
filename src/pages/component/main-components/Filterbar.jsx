@@ -1,5 +1,5 @@
 import styles from '../../styles/Fliterbar.module.css'
-import Multiple from './Multiple_select';
+import Multiple from '../side-components/Multiple_select';
 
 const FilterBar = () => {
     return ( 

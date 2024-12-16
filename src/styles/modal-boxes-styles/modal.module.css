@@ -102,6 +102,11 @@
     color: white;
 }
 
+.message_add button:hover{
+    cursor: pointer;
+    background-color: #55a6fd;
+}
+
 .main_container{
     display: grid;
     grid-template-columns: 4fr 0.5fr;
@@ -119,6 +124,10 @@
     background-color: var(--text-color);
     color: black;
     border: none;
+}
+
+.menu_grid div:hover{
+    background-color: #ffffff2c;
 }
 
 .menu_grid p{

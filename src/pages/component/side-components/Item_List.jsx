@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import list_table from '../../styles/Listtable.module.css'
-import ModalBox from './modalbox.jsx';
+import ModalBox from '../modal-boxes/modalbox.jsx';
 const Item_List = () => {
 
     const [isModalOpen, setIsModalOpen] = useState(false);

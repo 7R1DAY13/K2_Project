@@ -12,6 +12,10 @@
   grid-template-columns: repeat(2, 85% 15%  );     
 }
 
+.list_table:hover{
+    background-color: #555b7656;
+}
+
 .list_table_ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 5 columns */ /* Gap between items */

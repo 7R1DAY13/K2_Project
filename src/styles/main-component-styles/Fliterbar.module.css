@@ -186,7 +186,8 @@
     position: absolute;
     top: 100%;
     left: 0;
-    width: 245px;
+    width: 255px;
+    margin-top: 5px;
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

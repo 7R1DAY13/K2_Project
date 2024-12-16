@@ -28,8 +28,8 @@ const Multiple = () => {
         <span className={styles.arrow_icon}>&#9660;</span>
         {isDropdownActive && (
           <div id="dropdown" className={styles.dropdown_content}>
-            <div onClick={() => handleOptionClick('Option 1')}>Option 1</div>
-            <div onClick={() => handleOptionClick('Option 2')}>Option 2</div>
+            <div onClick={() => handleOptionClick('Option 1')}>複数選択可能</div>
+            <div onClick={() => handleOptionClick('Option 2')}>複数選択可能</div>
           </div>
         )}
       </div>

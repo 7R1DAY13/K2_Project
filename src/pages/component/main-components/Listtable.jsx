@@ -1,6 +1,6 @@
 import list_table from '../../styles/Listtable.module.css'
-import Category_Nav from './Category_Nav';
-import Item_List from './Item_List';
+import Category_Nav from '../side-components/Category_Nav';
+import Item_List from '../side-components/Item_List';
 
 const items = Array(30).fill(null);
 

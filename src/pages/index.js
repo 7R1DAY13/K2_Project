@@ -1,9 +1,9 @@
-import FilterBar from "./component/Filterbar";
-import Listtable from "./component/Listtable";
-import Navbar from "./component/Navbar";
-import SideBar from "./component/Sidebar";
+import FilterBar from "./component/main-components/Filterbar";
+import Listtable from "./component/main-components/Listtable";
+import Navbar from "./component/main-components/Navbar";
+import SideBar from "./component/main-components/Sidebar";
 import styles from '../styles/Home.module.css'
-import Searchbar from "./component/Searchbar";
+import Searchbar from "./component/side-components/Searchbar";
 import Head from "next/head";
 const Home = () => {
   return (  
@@ -18,7 +18,7 @@ const Home = () => {
           <Navbar/>
           <div class = {styles.main_div}>
             <Searchbar/>
-            <SideBar/>
+            <SideBar/> 
             <Listtable/>
             <FilterBar/>
           </div>
